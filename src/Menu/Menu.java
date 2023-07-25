@@ -275,8 +275,7 @@ public class Menu {
         check(!list.isEmpty(),Errors.EMPTY_LIST);
         list.sort(naturalOrder());
     }
-
-
+    
     /**
      * This method clear and reset the screen of the printed list
      */
@@ -297,7 +296,6 @@ public class Menu {
         check(!list.isEmpty(),Errors.EMPTY_LIST);
         list.clear();
     }
-
 
     /**
      * This method returns the size of a given list
